@@ -28,7 +28,7 @@ router.get('/:id', async (req, res) => {
     }
     res.status(200).json(locationData);
   }catch (err) {
-    res.status.status(500).json(err);
+    res.status(500).json(err);
   }
 });
 
